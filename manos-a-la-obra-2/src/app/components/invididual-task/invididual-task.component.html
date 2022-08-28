@@ -1,0 +1,5 @@
+<div class="individual-task" [id]=task.id>
+    <input type="checkbox" (click)="changeChecked(task)">
+    <h2 class="taskDescription">{{task.task}}</h2>
+    <button (click)="deleteTask(task)"><img src="assets/deleteImg.png" alt="delete button" srcset="" ></button>
+</div>
