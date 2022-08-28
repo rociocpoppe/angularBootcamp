@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "manos-a-la-obra-I": {
+    "manos-a-la-obra-2": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/manos-a-la-obra-i",
+            "outputPath": "dist/manos-a-la-obra-2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "manos-a-la-obra-I:build:production"
+              "browserTarget": "manos-a-la-obra-2:build:production"
             },
             "development": {
-              "browserTarget": "manos-a-la-obra-I:build:development"
+              "browserTarget": "manos-a-la-obra-2:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "manos-a-la-obra-I:build"
+            "browserTarget": "manos-a-la-obra-2:build"
           }
         },
         "test": {
@@ -102,6 +102,6 @@
     }
   },
   "cli": {
-    "analytics": "9eefdd1d-811a-47a8-913f-3ac82603a06d"
+    "analytics": "d68d9af6-2659-4ac7-a973-b90f7d18eb28"
   }
 }
