@@ -1,0 +1,11 @@
+.task-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+ul{
+    padding: 0px;
+}
