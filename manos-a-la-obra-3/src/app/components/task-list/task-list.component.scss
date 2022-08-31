@@ -1,0 +1,25 @@
+@use "../assets/abstracts/" as *;
+
+.task-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    min-height: 300px;   
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+ul{
+    padding: 0px;
+    margin:8px;
+}
+
+@media (max-width: 460px) {
+
+    .task-list{
+        width:auto;
+        height: auto;
+    }
+
+}

@@ -4,21 +4,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { InvididualTaskComponent } from './components/invididual-task/invididual-task.component';
+import { IndividualTaskComponent } from './components/individual-task/individual-task.component';
 import { NewTaskComponent } from './components/new-task/new-task.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    InvididualTaskComponent,
     NewTaskComponent,
-    TaskListComponent
+    TaskListComponent,
+    IndividualTaskComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonToggleModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

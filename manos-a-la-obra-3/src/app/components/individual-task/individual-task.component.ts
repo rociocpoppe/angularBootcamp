@@ -1,11 +1,11 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-invididual-task',
-  templateUrl: './invididual-task.component.html',
-  styleUrls: ['./invididual-task.component.css']
+  selector: 'app-individual-task',
+  templateUrl: './individual-task.component.html',
+  styleUrls: ['./individual-task.component.scss']
 })
-export class InvididualTaskComponent implements OnInit {
+export class IndividualTaskComponent implements OnInit {
   protected checked:boolean;
 
   constructor() {

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InvididualTaskComponent } from './invididual-task.component';
+import { IndividualTaskComponent } from './individual-task.component';
 
-describe('InvididualTaskComponent', () => {
-  let component: InvididualTaskComponent;
-  let fixture: ComponentFixture<InvididualTaskComponent>;
+describe('IndividualTaskComponent', () => {
+  let component: IndividualTaskComponent;
+  let fixture: ComponentFixture<IndividualTaskComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InvididualTaskComponent ]
+      declarations: [ IndividualTaskComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(InvididualTaskComponent);
+    fixture = TestBed.createComponent(IndividualTaskComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

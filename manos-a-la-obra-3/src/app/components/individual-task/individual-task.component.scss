@@ -1,0 +1,44 @@
+@use "../assets/abstracts/" as *;
+
+
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin:8px;
+    background-color: $white10;
+    width:496px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    input{
+        width: 24px;
+        height: 24px;
+        border: 2px solid white;
+        border-radius: 4px;
+        margin: 0px 8px 0px 8px;
+    }
+    
+    p{
+        font-size: 24px;
+        color: $white;
+        flex-grow: 2;
+        border-radius: 4px;
+    }
+
+}
+
+.done{
+    text-decoration: $white line-through;
+}
+
+
+@media (max-width: 460px) {
+    
+  div{
+    width: 360px;
+  }
+}
+    
+

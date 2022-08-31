@@ -1,0 +1,52 @@
+@use "../assets/abstracts/" as *;
+
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $white10;
+    box-sizing: border-box;
+    margin:8px 8px 24px 8px;
+    width:496px;
+    border-radius: 4px;
+}
+
+
+
+input{
+    background-color: transparent;
+    color: $white;
+    padding: 8px;
+    margin:8px;
+    border: red;
+    flex-grow: 3;
+    border-radius: 4px;
+    font-family: $roboto;
+    font-size: 24px;   position: -webkit-sticky;
+}
+
+
+hr{
+    background-color:$white50;
+    border-color: $white50;
+    width:496px;
+    height: 1px;
+}
+
+
+@media (max-width: 460px) {
+    
+    div{
+        width:360px;
+    }
+
+    input{
+        width:232px;
+    }
+    
+
+    hr{
+        width:360px;
+    }
+}
